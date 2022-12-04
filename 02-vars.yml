@@ -1,4 +1,4 @@
-- name: Demo on vars
+- name: Demo on vars1
   hosts: localhost
   tasks:
     - name: Print Hello
