@@ -19,8 +19,8 @@
 - name: Demo on vars from the file on play  levell
   hosts: localhost
   vars_files:
-    -sample-vars.yml
-        tasks:
+    - sample-vars.yml
+  tasks:
           - name: Print URL
             ansible.builtin.debug:
               msg: URL = {{ URL }}
