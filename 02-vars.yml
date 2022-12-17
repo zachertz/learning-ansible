@@ -16,7 +16,7 @@
       vars:
         URL : play.example.com
 
-- name: Demo on vars from the file on play  levell
+- name: Demo on vars from the file on play  level
   hosts: localhost
   vars_files:
     - sample-vars.yml
