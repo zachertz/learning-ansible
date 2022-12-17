@@ -14,7 +14,7 @@
       ansible.builtin.debug:
         msg: URL = {{ URL }}
       vars:
-        URL : task.example.com
+        URL : tasks.example.com
 
 - name: Demo on vars from the file on play  level
   hosts: localhost
