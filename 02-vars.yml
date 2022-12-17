@@ -7,7 +7,7 @@
       ansible.builtin.debug:
         msg: URL = {{ URL }}
 
-- name: Demo on vars on task levell
+- name: Demo on vars on task level
   hosts: localhost
   tasks:
     - name: Print URL
