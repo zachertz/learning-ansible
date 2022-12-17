@@ -1,6 +1,8 @@
 - name: Demo on vars1
   hosts: localhost
+  vars:
+    URL : play.example.com
   tasks:
-    - name: Print Hello
+    - name: Print URL
       ansible.builtin.debug:
-        msg: hello
+        msg: URL = {{ URL }}
