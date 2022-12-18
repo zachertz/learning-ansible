@@ -26,7 +26,6 @@
               msg: URL = {{ URL }}
 
 - name: vars print from roles
-  hosts: all
-  connection: local
+  hosts: localhost
   roles:
     - sample
