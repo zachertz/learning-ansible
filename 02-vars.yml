@@ -25,7 +25,7 @@
             ansible.builtin.debug:
               msg: URL = {{ URL }}
 
-- name: vars print from roles
+- name: vars printt from roles
   hosts: localhost
   roles:
     - sample
